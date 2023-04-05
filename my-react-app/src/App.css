@@ -1,240 +1,84 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  margin-top: 50px;
+  font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #a1a7b3;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
- * {
-   margin: 0;
-   padding: 0;
- }
-
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: sticky;
+  position: fixed;
   top: 0;
-  cursor: pointer;
+  left: 0;
+  right: 0;
+  height: 50px;
+  line-height: 50px;
+  background-color: #eee;
 }
 
-.background {
-  background: black;
-  background-blend-mode: darken;
-  background-size: cover;
+header * {
+  display: inline;
+  height: 50px;
 }
 
-.nav-list {
-  width: 70%;
-  display: flex;
-  align-items: center;
+header ul {
+  padding: 0;
 }
 
-.logo {
+header li {
+  margin-left: 20px;
+}
+
+section {
+  height: 100vh;
+  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+
+  background-size: cover; /* Add this line */
+  background-position: center center; /* Add this line */
+  background-repeat: no-repeat; /* Add this line */
+  background-attachment: fixed; /* Add this line */
 }
 
-.logo img {
-  width: 180px;
-  border-radius: 50px;
+#hero .profile-img {
+  width: 300px;
+  border-radius: 50%;
 }
 
-.nav-list li {
-  list-style: none;
-  padding: 26px 30px;
+footer {
+  text-align: center;
+  padding: 50px;
 }
 
-.nav-list li a {
+#hero h1 {
+  font-size: 3em;
+}
+
+section h2 {
+  font-size: 2.5em;
+}
+
+section h3 {
+  font-size: 1.5em;
+}
+
+header a {
   text-decoration: none;
-  color: white;
-}
-
-.nav-list li a:hover {
-  color: grey;
-}
-
-.rightnav {
-  width: 30%;
-  text-align: right;
-}
-
-#search {
-  padding: 5px;
-  font-size: 17px;
-  border: 2px solid grey;
-  border-radius: 9px;
-}
-
-.firstsection {
-  background-color: #878584;
-  height: 400px;
-}
-
-.secondsection {
-  background-color: #ada9a8;
-  height: 400px;
-}
-
-.box-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: black;
-  max-width: 80%;
-  margin: auto;
-  height: 80%;
 }
 
-.firsthalf {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+/* Add everything below here */
+
+#hero {
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
 }
 
-.secondhalf {
-  width: 30%;
+#about {
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/beach.jpg');
 }
 
-.secondhalf img {
-  width: 70%;
-  border: 4px solid white;
-  border-radius: 150px;
-  display: block;
-  margin: auto;
-}
-
-.text-big {
-  font-family: 'Piazzolla', serif;
-  font-weight: bold;
-  font-size: 35px;
-}
-
-.text-small {
-  font-size: 18px;
-}
-
-.btn {
-  padding: 8px 20px;
-  margin: 7px 0;
-  border: 2px solid white;
-  border-radius: 8px;
-  background: none;
-  color: white;
-  cursor: pointer;
-}
-
-.btn-sm {
-  padding: 6px 10px;
-  vertical-align: middle;
-}
-
-.section {
-  height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 90%;
-  margin: auto;
-}
-
-.section-Left {
-  flex-direction: row-reverse;
-}
-
-.paras {
-  padding: 0px 65px;
-}
-
-.thumbnail img {
-  width: 250px;
-  border: 2px solid black;
-  border-radius: 26px;
-  margin-top: 19px;
-}
-
-.center {
-  text-align: center;
-}
-
-.text-footer {
-  text-align: center;
-  padding: 30px 0;
-  font-family: 'Ubuntu', sans-serif;
-  display: flex;
-  justify-content: center;
-  color: white;
+#contact {
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
 }
