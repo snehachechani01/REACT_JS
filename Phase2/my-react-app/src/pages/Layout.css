@@ -1,0 +1,31 @@
+nav {
+    background-color:yellowgreen;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+li:not(:last-child) {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    padding: 6px 10px;
+}
+
+a:hover {
+    color: #f8f9fa;
+}
