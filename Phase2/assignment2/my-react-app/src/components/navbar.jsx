@@ -13,6 +13,8 @@ export const Navbar = () => {
           {/*<Link to="/ContactUs"> ContactUs</Link>*/}
 
            <Link to="/AboutUs"> AboutUs </Link>
+           <Link to="/Billing">Checkout</Link>
+           <Link to="/ContactUs">ContactUs</Link>
         <Link to="/cart">
           <ShoppingCart size={32} />
         </Link>

@@ -1,11 +1,8 @@
 body{
     background-color:azure
 }
-.banner1{
-   
-        height: 100%;
-        /* margin-top: 6px; */
-        width: 100%;
-      
-        
-    } 
+
+
+.home h1{
+    text-align: center;
+}

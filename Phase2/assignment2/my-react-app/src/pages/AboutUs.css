@@ -1,69 +1,57 @@
 .about-us-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.banner {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.banner img {
+  width: 100%;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+h3{
+  
     text-align: center;
-  }
-  
-  h1 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 40px;
-  }
-  
-  h2 {
-    font-size: 36px;
-    font-weight: bold;
-    margin-top: 60px;
-    margin-bottom: 40px;
-  }
-  
-  p {
-    font-size: 20px;
-    line-height: 1.5;
-    margin-bottom: 40px;
-  }
-  
-  .team-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 40px;
-  }
-  
-  .team-member {
-    width: 300px;
-    margin: 20px;
-    background-color: #f2f2f2;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .team-member:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  .team-member img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 20px;
-  }
-  
-  h3 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .team-member p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-  }
-  
+
+}
+.team-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.team-members {
+  flex: 1;
+}
+
+.team-members ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.team-members li {
+  margin-bottom: 20px;
+}
+
+.team-members h3 {
+  margin: 0 0 10px 0;
+}
+
+.team-image {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.team-image img {
+  width: 100%;
+}

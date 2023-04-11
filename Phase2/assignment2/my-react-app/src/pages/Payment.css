@@ -1,0 +1,44 @@
+.react-credit-cards__card--flipped {
+    transform: rotateY(180deg);
+  }
+  
+  .react-credit-cards__card {
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 200px;
+    margin: 20px auto;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    width: 320px;
+  }
+  
+  .react-credit-cards__card:hover {
+    transform: scale(1.05);
+  }
+  
+  .react-credit-cards__card--cvc {
+    background-color: #f44336;
+  }
+  
+  .react-credit-cards__card--number {
+    background-color: #4caf50;
+  }
+  
+  .react-credit-cards__card--name {
+    background-color: #2196f3;
+  }
+  
+  .react-credit-cards__card--expiry {
+    background-color: #9e9e9e;
+  }
+  
+  .react-credit-cards__input--focus {
+    border-color: #2196f3;
+  }
+  
+  .react-credit-cards__input--invalid {
+    border-color: #f44336;
+  }
+  
