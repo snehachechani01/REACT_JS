@@ -1,6 +1,7 @@
+
 .form-container {
     max-width: 500px;
-    margin: 0 auto;
+    margin: 116px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;

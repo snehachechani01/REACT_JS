@@ -3,6 +3,7 @@
   text-align: center;
   font-size: 40px;
 }
+
 .products {
   width: 100%;
   height: auto;
@@ -28,6 +29,7 @@
 
 .product .description {
   text-align: center;
+  padding:32px;
 }
 
 /* .product:hover {

@@ -2,7 +2,7 @@ nav {
     background-color:yellowgreen;
     padding: 20px 30px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 ul {
@@ -28,4 +28,9 @@ a {
 
 a:hover {
     color: #f8f9fa;
+}
+
+p{
+    font-size: 16px;
+    color: blueviolet;
 }

@@ -29,7 +29,7 @@ const cartReducer = (state, action) => {
     case REMOVE_FROM_CART:
       return {
         ...state,
-        [action.payload]:state[action.payload] - 1 ,
+        [action.payload]: state[action.payload] - 1,
       };
     case UPDATE_CART_ITEM_COUNT:
       return {
