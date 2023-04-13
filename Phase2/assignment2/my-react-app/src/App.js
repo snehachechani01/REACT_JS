@@ -18,8 +18,7 @@ function App() {
     <div className="App">
 
       <ShopContextProvider>
-
-        <Router>
+          <Router>
           <Navbar />
           <Routes>
 

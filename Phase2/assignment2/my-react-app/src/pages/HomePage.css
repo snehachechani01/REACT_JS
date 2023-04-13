@@ -80,5 +80,20 @@ footer{
     margin-right: 20px;
 
   }
- 
+  .testimonial-box img {
+    max-width: 250px;
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.author-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.author-info h4 {
+  margin-left: 1rem;
+}
+
   

@@ -20,18 +20,22 @@ export default function App() {
             id: 1,
             text: "We have been using SunTec's services for the past year to tag products with qualitative attributes. Their work has been pivotal in us being able to deploy new products that leverage the data that their team has provided. They have been super helpful, responsive, and diligent in the work that they've provided. We look forward to maintaining our relationship for the long term",
             author: 'John Slith',
+            imageUrl:'images/testi1.jpeg'
+            
 
         },
         {
             id: 2,
             text: "I am pleased with the services SunTec has provided me to modify the design and functionality of my online shopping website. Its X-Cart development services helped my online business grow. I would really like to work with SunTec again.",
             author: 'Jane Smith',
+            imageUrl:'images/testi2.jpeg'
 
         },
         {
             id: 3,
             text: "I was looking for Zen Cart Development service for my business. After surveying many companies, the search ended with SunTec India. I was really impressed with the way they catered to my requirements. They provided me cost-effective solutions, and I hope to work with them in the near future.",
             author: 'Mane Smith',
+            imageUrl:'images/testi3.jpeg'
 
         },
     ];
@@ -73,6 +77,7 @@ export default function App() {
                     <div className="testimonial-list">
                         {testimonials.map((testimonial) => (
                             <div className="testimonial-box" key={testimonial.id}>
+                                 <img src={testimonial.imageUrl} alt="testimonial" />
 
                                 <p>{testimonial.text}</p>
                                 <div className="testimonial-author">
