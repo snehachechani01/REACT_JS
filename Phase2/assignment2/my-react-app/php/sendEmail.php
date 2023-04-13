@@ -7,8 +7,6 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 require 'vendor/autoload.php';
-
-
 if (isset($_POST['fname']) && isset($_POST['email']) && isset($_POST['phone']) && isset($_POST['message'])) {
 
     $firstname = $_POST['fname'];
@@ -24,7 +22,7 @@ if (isset($_POST['fname']) && isset($_POST['email']) && isset($_POST['phone']) &
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'sneha.chechani@sigmainfo.net';
-        $mail->Password = 'Sneha@123456789';
+        $mail->Password = '';  //you can enter your password here so that you will get the mail !!
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
@@ -44,8 +42,4 @@ if (isset($_POST['fname']) && isset($_POST['email']) && isset($_POST['phone']) &
 } else {
     echo 'Message could not be sent no data.';
 }
-
-
-
-
 ?>
