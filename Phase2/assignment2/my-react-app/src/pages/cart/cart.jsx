@@ -42,6 +42,7 @@ export const Cart = () => {
     updateCartItems(newCartItems);
   };
 
+
   return (
     <div className="cart">
       <div>
@@ -77,6 +78,7 @@ export const Cart = () => {
             {" "}
             Checkout{" "}
           </button>
+        
         </div>
       ) : (
         <h1> Your Shopping Cart is Empty</h1>
